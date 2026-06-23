@@ -28,7 +28,7 @@
 ### ✍️ Latest from the blog
 
 <!-- BLOG:START -->
-- **[一天搭建自己的多模型 AI 网关：把付费订阅变成全家共享入口](https://zerblion.github.io/zrxl_blog/#/post/2026-06-21-multi-model-ai-gateway)** — 从 ChatALL 踩坑到自建——用订阅桥 + Open WebUI + NAS，一天搭出全家共享、多模型并排的 AI 入口。 <sub>· 2026-06-21</sub>
+- **["Build Your Own Multi-Model AI Gateway in a Day: Turn Paid Subscriptions into a Family-Wide Hub"](https://zerblion.github.io/zrxl_blog/#/post/2026-06-21-multi-model-ai-gateway)** — From ChatALL pitfalls to rolling my own — a subscription bridge + Open WebUI + NAS, a family-shared, side-by-side multi-model AI hub built in a day. <sub>· 2026-06-21</sub>
 <!-- BLOG:END -->
 
 <sub>↑ Auto-updated from [**zrxl_blog**](https://zerblion.github.io/zrxl_blog/) by a GitHub Action — always current, no third-party widgets.</sub>
