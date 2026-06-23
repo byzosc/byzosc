@@ -1,0 +1,23 @@
+<svg width="450" height="208" viewBox="0 0 450 208" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ZERB GitHub stats">
+  <style>
+    .title { font: 700 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed; }
+    .label { font: 600 14.5px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+    .value { font: 700 15px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed; text-anchor: end; }
+    .langs { font: 600 12.5px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+  </style>
+  <rect x="1" y="1" width="448" height="206" rx="11" fill="none" stroke="#8b949e" stroke-opacity="0.35"/>
+  <text x="28" y="40" class="title">ZERB · GitHub</text>
+  <circle cx="30" cy="73" r="3" fill="#2f80ed"/>
+  <text x="44" y="78" class="label">Public repos</text>
+  <text x="422" y="78" class="value">4</text>
+  <circle cx="30" cy="101" r="3" fill="#2f80ed"/>
+  <text x="44" y="106" class="label">Total stars</text>
+  <text x="422" y="106" class="value">3</text>
+  <circle cx="30" cy="129" r="3" fill="#2f80ed"/>
+  <text x="44" y="134" class="label">Followers</text>
+  <text x="422" y="134" class="value">1</text>
+  <circle cx="30" cy="157" r="3" fill="#2f80ed"/>
+  <text x="44" y="162" class="label">Following</text>
+  <text x="422" y="162" class="value">3</text>
+  <text x="44" y="194" class="langs">Top: JavaScript · Python</text>
+</svg>

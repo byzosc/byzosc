@@ -12,9 +12,7 @@
 
 <br/>
 
-<img height="165" alt="Zerb's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ZerbLion&show_icons=true&include_all_commits=true&hide_title=true&hide_border=true&rank_icon=github&icon_color=0969da&title_color=0969da&text_color=8b949e&bg_color=00000000" />
-&nbsp;&nbsp;
-<img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZerbLion&layout=compact&hide_border=true&langs_count=8&title_color=0969da&text_color=8b949e&bg_color=00000000" />
+<img alt="Zerb's GitHub stats" src="stats.svg" width="450" />
 
 </div>
 
