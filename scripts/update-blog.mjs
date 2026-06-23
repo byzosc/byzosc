@@ -37,7 +37,7 @@ function parseFrontmatter(md) {
   for (const line of m[1].split(/\r?\n/)) {
     const i = line.indexOf(': ');
     if (i === -1) continue;
-    fm[line.slice(0, i).trim()] = line.slice(i + 2).trim();
+    fm[line.slice(0, i).trim()] = line.slice(i + 2).trim().replace(/^["']|["']$/g, '');
   }
   return fm;
 }
