@@ -1,15 +1,10 @@
 <div align="center">
-
-# Hi, I'm Zerb Lion 👋
-
+# Hi, I'm ZERB LION 👋
 **Homelabber · self-hosting & AI tinkerer**
-
 *I turn "I wish this existed" into a weekend project — then write down how I did it.*
-
 [![Blog](https://img.shields.io/badge/blog-zerblion.github.io-0969da)](https://zerblion.github.io/zrxl_blog/)
 ![Into](https://img.shields.io/badge/into-self--hosting%20%2F%20AI%20%2F%20NAS-2ea44f)
 ![Style](https://img.shields.io/badge/style-build%20it%20myself-ed1c24)
-
 </div>
 
 ---
