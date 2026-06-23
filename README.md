@@ -1,5 +1,4 @@
 <div align="center">
-
 # Hi, I'm Zerb Lion 👋
 
 **Homelabber · self-hosting & AI tinkerer**
