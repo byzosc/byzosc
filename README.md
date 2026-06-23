@@ -12,7 +12,7 @@
 
 <br/>
 
-<img alt="Zerb's GitHub stats" src="stats.svg" width="450" />
+<img alt="Zerb's GitHub stats" src="https://raw.githubusercontent.com/ZerbLion/ZerbLion/main/stats.svg" width="450" />
 
 </div>
 

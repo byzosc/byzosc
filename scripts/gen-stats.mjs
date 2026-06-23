@@ -44,24 +44,21 @@ const stats = [
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const W = 450, H = 208;
+const FF = 'Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif';
 const rows = stats.map(([label, value], i) => {
   const y = 78 + i * 28;
   return `  <circle cx="30" cy="${y - 5}" r="3" fill="#2f80ed"/>
-  <text x="44" y="${y}" class="label">${esc(label)}</text>
-  <text x="${W - 28}" y="${y}" class="value">${esc(value)}</text>`;
+  <text x="44" y="${y}" font-family="${FF}" font-size="14.5" font-weight="600" fill="#8b949e">${esc(label)}</text>
+  <text x="${W - 28}" y="${y}" font-family="${FF}" font-size="15" font-weight="700" fill="#2f80ed" text-anchor="end">${esc(value)}</text>`;
 }).join('\n');
 
-const svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(user.name || USER)} GitHub stats">
-  <style>
-    .title { font: 700 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed; }
-    .label { font: 600 14.5px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
-    .value { font: 700 15px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed; text-anchor: end; }
-    .langs { font: 600 12.5px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
-  </style>
+// 样式写死在每个元素上，不用 <style>：GitHub 用 <img> 渲染 SVG 时会丢掉 <style>，
+// 文字会退回默认黑色填充，在深色主题上等于隐形（这就是之前"看不到卡"的原因）。
+const svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(user.name || USER)} GitHub stats">
   <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="11" fill="none" stroke="#8b949e" stroke-opacity="0.35"/>
-  <text x="28" y="40" class="title">${esc(user.name || USER)} · GitHub</text>
+  <text x="28" y="40" font-family="${FF}" font-size="18" font-weight="700" fill="#2f80ed">${esc(user.name || USER)} · GitHub</text>
 ${rows}
-  <text x="44" y="${78 + stats.length * 28 + 4}" class="langs">Top: ${esc(topLangs.join(' · ') || '—')}</text>
+  <text x="44" y="${78 + stats.length * 28 + 4}" font-family="${FF}" font-size="12.5" font-weight="600" fill="#8b949e">Top: ${esc(topLangs.join(' · ') || '—')}</text>
 </svg>
 `;
 
