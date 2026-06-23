@@ -10,8 +10,6 @@
 ![Into](https://img.shields.io/badge/into-self--hosting%20%2F%20AI%20%2F%20NAS-2ea44f)
 ![Style](https://img.shields.io/badge/style-build%20it%20myself-ed1c24)
 
-<br/>
-
 </div>
 
 ---
