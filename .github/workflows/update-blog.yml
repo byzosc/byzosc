@@ -1,0 +1,42 @@
+name: Update latest blog posts
+
+on:
+  schedule:
+    - cron: '23 1 * * *'      # 每天 01:23 UTC 刷新一次
+  workflow_dispatch:           # 也可在 Actions 页手动触发
+
+permissions:
+  contents: write
+
+# 同一时间只跑一个，避免并发提交打架
+concurrency:
+  group: update-blog
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Refresh latest posts from zrxl_blog
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BLOG_REPO: ZerbLion/zrxl_blog
+        run: node scripts/update-blog.mjs
+
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: refresh latest blog posts"
+            git push
+          else
+            echo "无变化，跳过提交"
+          fi
