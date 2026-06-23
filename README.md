@@ -1,7 +1,6 @@
 <div align="center">
-# Hi, I'm Zerb Lion 👋
 
-**Homelabber · self-hosting & AI tinkerer**
+**Hi, I'm Zerb Lion 👋**
 
 *I turn "I wish this existed" into a weekend project — then write down how I did it.*
 
