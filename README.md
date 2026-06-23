@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Zerb 👋
+# Hi, I'm Zerb Lion 👋
 
 **Homelabber · self-hosting & AI tinkerer**
 
@@ -11,8 +11,6 @@
 ![Style](https://img.shields.io/badge/style-build%20it%20myself-ed1c24)
 
 <br/>
-
-<img alt="Zerb's GitHub stats" src="https://raw.githubusercontent.com/ZerbLion/ZerbLion/main/stats.svg" width="450" />
 
 </div>
 
