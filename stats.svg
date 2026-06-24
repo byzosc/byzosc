@@ -13,5 +13,5 @@
   <circle cx="30" cy="157" r="3" fill="#2f80ed"/>
   <text x="44" y="162" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#8b949e">Following</text>
   <text x="422" y="162" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f80ed" text-anchor="end">3</text>
-  <text x="44" y="194" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Top: JavaScript · Python</text>
+  <text x="44" y="194" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Top: JavaScript · HTML</text>
 </svg>
