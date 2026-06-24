@@ -39,6 +39,8 @@
 
 <!-- BLOG:START -->
 - **[Build Your Own Multi-Model AI Gateway in a Day: Turn Paid Subscriptions into a Family-Wide Hub](https://zerblion.github.io/zrxl_blog/#/post/2026-06-21-multi-model-ai-gateway)** — From ChatALL pitfalls to rolling my own — a subscription bridge + Open WebUI + NAS, a family-shared, side-by-side multi-model AI hub built in a day. <sub>· 2026-06-21</sub>
+- **[Silence Is an Eternal Theme](https://zerblion.github.io/zrxl_blog/#/post/2017-07-01-silence-is-an-eternal-theme)** — A farewell under a 38°C blaze — looking back to where it all felt certain, meetings and partings, and a steadfast creed that we will surely meet again. <sub>· 2017-07-01</sub>
+- **[Gentle Gale](https://zerblion.github.io/zrxl_blog/#/post/2017-06-06-gentle-gale)** — A quiet afternoon at the Fourteen-Inch Resort — post-rock in my ears, draped in a gentle gale, wanting only to walk this road to its end. <sub>· 2017-06-06</sub>
 <!-- BLOG:END -->
 
 <sub>↑ Auto-updated from <a href="https://zerblion.github.io/zrxl_blog/">zrxl_blog</a> by a GitHub Action.</sub>
