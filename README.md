@@ -1,6 +1,6 @@
 <div align="center">
 
-**Hi, I'm Zerb Lion 👋**
+**Hi, I'm ZERB LION 👋**
 
 *I turn "I wish this existed" into a weekend project — then write down how I did it.*
 
