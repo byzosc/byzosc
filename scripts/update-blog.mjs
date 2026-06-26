@@ -1,17 +1,17 @@
 #!/usr/bin/env node
-// 把 zrxl_blog 的最新文章注入到 profile 的 README（<!-- BLOG:START/END --> 之间）。
+// 把 zero-build-blog 的最新文章注入到 profile 的 README（<!-- BLOG:START/END --> 之间）。
 // 零依赖（Node 18+ 自带 fetch）。GitHub Action 定时跑，也可本地跑。
 //
 // 环境变量：
 //   GH_TOKEN   GitHub token（Action 用 github.token；本地用 `gh auth token`）。可省，但匿名有限流。
-//   BLOG_REPO  默认 ZerbLion/zrxl_blog
+//   BLOG_REPO  默认 ZerbLion/zero-build-blog
 //
 // 数据源就是博客仓库的 posts/ 目录——不依赖 RSS，不依赖任何第三方服务。
 
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const REPO = process.env.BLOG_REPO || 'ZerbLion/zrxl_blog';
-const SITE = 'https://zerblion.github.io/zrxl_blog';
+const REPO = process.env.BLOG_REPO || 'ZerbLion/zero-build-blog';
+const SITE = 'https://zerblion.github.io/zero-build-blog';
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 const MAX = 5;
 const README = 'README.md';
