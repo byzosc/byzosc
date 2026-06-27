@@ -3,15 +3,15 @@
   <text x="28" y="40" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#2f80ed">ZERB LION · GitHub</text>
   <circle cx="30" cy="73" r="3" fill="#2f80ed"/>
   <text x="44" y="78" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#8b949e">Public repos</text>
-  <text x="422" y="78" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f80ed" text-anchor="end">3</text>
+  <text x="422" y="78" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f80ed" text-anchor="end">4</text>
   <circle cx="30" cy="101" r="3" fill="#2f80ed"/>
   <text x="44" y="106" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#8b949e">Total stars</text>
-  <text x="422" y="106" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f80ed" text-anchor="end">3</text>
+  <text x="422" y="106" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f80ed" text-anchor="end">5</text>
   <circle cx="30" cy="129" r="3" fill="#2f80ed"/>
   <text x="44" y="134" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#8b949e">Followers</text>
   <text x="422" y="134" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f80ed" text-anchor="end">1</text>
   <circle cx="30" cy="157" r="3" fill="#2f80ed"/>
   <text x="44" y="162" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#8b949e">Following</text>
   <text x="422" y="162" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f80ed" text-anchor="end">3</text>
-  <text x="44" y="194" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Top: JavaScript · HTML</text>
+  <text x="44" y="194" font-family="Segoe UI, Ubuntu, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8b949e">Top: HTML · JavaScript</text>
 </svg>
