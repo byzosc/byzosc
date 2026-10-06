@@ -4,14 +4,14 @@
 //
 // 环境变量：
 //   GH_TOKEN   GitHub token（Action 用 github.token；本地用 `gh auth token`）。可省，但匿名有限流。
-//   BLOG_REPO  默认 ZerbLion/zero-build-blog
+//   BLOG_REPO  默认 byzosc/zero-build-blog
 //
 // 数据源就是博客仓库的 posts/ 目录——不依赖 RSS，不依赖任何第三方服务。
 
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const REPO = process.env.BLOG_REPO || 'ZerbLion/zero-build-blog';
-const SITE = 'https://zerblion.github.io/zero-build-blog';
+const REPO = process.env.BLOG_REPO || 'byzosc/zero-build-blog';
+const SITE = 'https://blog.zosc.com';
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 const MAX = 5;
 const README = 'README.md';
@@ -19,7 +19,7 @@ const START = '<!-- BLOG:START -->';
 const END = '<!-- BLOG:END -->';
 
 function headers() {
-  const h = { Accept: 'application/vnd.github+json', 'User-Agent': 'zerblion-profile' };
+  const h = { Accept: 'application/vnd.github+json', 'User-Agent': 'zosc-profile' };
   if (TOKEN) h.Authorization = `Bearer ${TOKEN}`;
   return h;
 }
