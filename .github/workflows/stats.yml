@@ -25,7 +25,7 @@ jobs:
       - name: Generate stats.svg
         env:
           GH_TOKEN: ${{ github.token }}
-          STATS_USER: ZerbLion
+          STATS_USER: byzosc
         run: node scripts/gen-stats.mjs
 
       - name: Commit if changed

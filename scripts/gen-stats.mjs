@@ -7,14 +7,14 @@
 
 import { writeFile } from 'node:fs/promises';
 
-const USER = process.env.STATS_USER || 'ZerbLion';
+const USER = process.env.STATS_USER || 'byzosc';
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 
 async function gh(p) {
   const r = await fetch(`https://api.github.com${p}`, {
     headers: {
       Accept: 'application/vnd.github+json',
-      'User-Agent': 'zerblion-stats',
+      'User-Agent': 'zosc-stats',
       ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
     },
   });

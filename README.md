@@ -1,10 +1,10 @@
 <div align="center">
 
-**Hi, I'm ZERB LION 👋**
+**Hi, I'm zosc 👋**
 
 *I turn "I wish this existed" into a weekend project — then write down how I did it.*
 
-[![Blog](https://img.shields.io/badge/blog-zerblion.github.io-0969da)](https://zerblion.github.io/zero-build-blog/)
+[![Blog](https://img.shields.io/badge/blog-blog.zosc.com-0969da)](https://blog.zosc.com/)
 ![Into](https://img.shields.io/badge/into-self--hosting%20%2F%20AI%20%2F%20NAS-2ea44f)
 ![Style](https://img.shields.io/badge/style-build%20it%20myself-ed1c24)
 
@@ -32,25 +32,25 @@
 
 | Project | What it is |
 |---|---|
-| [**zero-build-blog**](https://github.com/ZerbLion/zero-build-blog) | A zero-build, push-to-publish blog engine — Markdown in, a GitHub Pages site out. |
-| [**nas-monitoring**](https://github.com/ZerbLion/nas-monitoring) | Turn an AMD Synology NAS into a clean temperature JSON API for an ESP32 / M5Dial desk dial. |
+| [**zero-build-blog**](https://github.com/byzosc/zero-build-blog) | A zero-build, push-to-publish blog engine — Markdown in, a GitHub Pages site out. |
+| [**nas-monitoring**](https://github.com/byzosc/nas-monitoring) | Turn an AMD Synology NAS into a clean temperature JSON API for an ESP32 / M5Dial desk dial. |
 
 ### ✍️ Latest from the blog
 
 <!-- BLOG:START -->
-- **[I Turned Homepage into My Personal Command Center](https://zerblion.github.io/zero-build-blog/#/post/2026-07-20-zerb-hub-command-center)** — What began as a page of links grew into the first screen I check every day: VPS and NAS health, WAN/LAN/Tailscale routes, AI limits, and synced personal state. <sub>· 2026-07-25</sub>
-- **[AI Is Entering the Editable Motion Pipeline: Spec, AE, and Handoff](https://zerblion.github.io/zero-build-blog/#/post/2026-07-16-motionhub)** — MotionSpec defines the rules, MotionPilot builds editable AE motion, and MotionSheet hands it off and audits it against the same shared spec. <sub>· 2026-07-16</sub>
-- **[Claude Account Suspended? A VPS Might Be the Answer](https://zerblion.github.io/zero-build-blog/#/post/2026-07-05-vps-compliant-edge)** — Instead of jumping between devices, networks, and proxy chains, I keep Claude on one capable VPS: SSH-only when I can, or a lightweight Ubuntu desktop over Tailscale/RDP when I need a GUI. The goal isn't to dodge detection — just to stop my Claude usage from drifting all over the place. <sub>· 2026-07-05</sub>
-- **[Stop Trusting a Single Temperature Source: Verified JSON for an AMD Synology NAS](https://zerblion.github.io/zero-build-blog/#/post/2026-06-26-amd-synology-temperature-json-api)** — On an AMD Synology, no single tool reliably reports CPU, board, and disk temperatures. I pick the best source per value, merge them into one small JSON endpoint, and cross-check every reading against an independent source. <sub>· 2026-06-26</sub>
-- **[I Built a Zero-Build Blog: Just Markdown and git push](https://zerblion.github.io/zero-build-blog/#/post/2026-06-26-zero-build-blog)** — No Hugo, no Jekyll, no node_modules, no CI. The repo is the website — write a Markdown file, push, and a ~400-line vanilla-JS engine renders it. Here's how it works and the one rate-limit pit I fell into. <sub>· 2026-06-26</sub>
+- **[I Turned Homepage into My Personal Command Center](https://blog.zosc.com/#/post/2026-07-20-zerb-hub-command-center)** — What began as a page of links grew into the first screen I check every day: VPS and NAS health, WAN/LAN/Tailscale routes, AI limits, and synced personal state. <sub>· 2026-07-25</sub>
+- **[AI Is Entering the Editable Motion Pipeline: Spec, AE, and Handoff](https://blog.zosc.com/#/post/2026-07-16-motionhub)** — MotionSpec defines the rules, MotionPilot builds editable AE motion, and MotionSheet hands it off and audits it against the same shared spec. <sub>· 2026-07-16</sub>
+- **[Claude Account Suspended? A VPS Might Be the Answer](https://blog.zosc.com/#/post/2026-07-05-vps-compliant-edge)** — Instead of jumping between devices, networks, and proxy chains, I keep Claude on one capable VPS: SSH-only when I can, or a lightweight Ubuntu desktop over Tailscale/RDP when I need a GUI. The goal isn't to dodge detection — just to stop my Claude usage from drifting all over the place. <sub>· 2026-07-05</sub>
+- **[Stop Trusting a Single Temperature Source: Verified JSON for an AMD Synology NAS](https://blog.zosc.com/#/post/2026-06-26-amd-synology-temperature-json-api)** — On an AMD Synology, no single tool reliably reports CPU, board, and disk temperatures. I pick the best source per value, merge them into one small JSON endpoint, and cross-check every reading against an independent source. <sub>· 2026-06-26</sub>
+- **[I Built a Zero-Build Blog: Just Markdown and git push](https://blog.zosc.com/#/post/2026-06-26-zero-build-blog)** — No Hugo, no Jekyll, no node_modules, no CI. The repo is the website — write a Markdown file, push, and a ~400-line vanilla-JS engine renders it. Here's how it works and the one rate-limit pit I fell into. <sub>· 2026-06-26</sub>
 <!-- BLOG:END -->
 
-<sub>↑ Auto-updated from <a href="https://zerblion.github.io/zero-build-blog/">zero-build-blog</a> by a GitHub Action.</sub>
+<sub>↑ Auto-updated from <a href="https://blog.zosc.com/">zero-build-blog</a> by a GitHub Action.</sub>
 
 ---
 
 <div align="center">
 
-<sub>Built in a homelab, documented for the next tinkerer. The long versions live on <a href="https://zerblion.github.io/zero-build-blog/">the blog</a>.</sub>
+<sub>Built in a homelab, documented for the next tinkerer. The long versions live on <a href="https://blog.zosc.com/">the blog</a>.</sub>
 
 </div>
