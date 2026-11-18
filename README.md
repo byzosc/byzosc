@@ -40,11 +40,11 @@
 ### ✍️ Latest from the blog
 
 <!-- BLOG:START -->
+- **[Building Cubby: One Line Now, Find It Later](https://blog.zosc.com/#/post/2026-11-18-cubby)** — Why I built Cubby, a small offline app for remembering where you put things — the one rule that shaped it, the design trade-offs, and the bugs that only showed up on real phones. <sub>· 2026-11-18</sub>
+- **[MotionPilot: An Easing Curve and a Duration Are One Token](https://blog.zosc.com/#/post/2026-11-18-motionpilot-spec-tokens)** — Why my After Effects panel applies a motion spec's curve and duration in a single step, what Apply Spec actually does to your keyframes, and the AE pitfalls behind it. <sub>· 2026-11-18</sub>
 - **[I Turned Homepage into My Personal Command Center](https://blog.zosc.com/#/post/2026-07-20-zerb-hub-command-center)** — What began as a page of links grew into the first screen I check every day: VPS and NAS health, WAN/LAN/Tailscale routes, AI limits, and synced personal state. <sub>· 2026-07-25</sub>
 - **[AI Is Entering the Editable Motion Pipeline: Spec, AE, and Handoff](https://blog.zosc.com/#/post/2026-07-16-motionhub)** — MotionSpec defines the rules, MotionPilot builds editable AE motion, and MotionSheet hands it off and audits it against the same shared spec. <sub>· 2026-07-16</sub>
 - **[Claude Account Suspended? A VPS Might Be the Answer](https://blog.zosc.com/#/post/2026-07-05-vps-compliant-edge)** — Instead of jumping between devices, networks, and proxy chains, I keep Claude on one capable VPS: SSH-only when I can, or a lightweight Ubuntu desktop over Tailscale/RDP when I need a GUI. The goal isn't to dodge detection — just to stop my Claude usage from drifting all over the place. <sub>· 2026-07-05</sub>
-- **[Stop Trusting a Single Temperature Source: Verified JSON for an AMD Synology NAS](https://blog.zosc.com/#/post/2026-06-26-amd-synology-temperature-json-api)** — On an AMD Synology, no single tool reliably reports CPU, board, and disk temperatures. I pick the best source per value, merge them into one small JSON endpoint, and cross-check every reading against an independent source. <sub>· 2026-06-26</sub>
-- **[I Built a Zero-Build Blog: Just Markdown and git push](https://blog.zosc.com/#/post/2026-06-26-zero-build-blog)** — No Hugo, no Jekyll, no node_modules, no CI. The repo is the website — write a Markdown file, push, and a ~400-line vanilla-JS engine renders it. Here's how it works and the one rate-limit pit I fell into. <sub>· 2026-06-26</sub>
 <!-- BLOG:END -->
 
 <sub>↑ Auto-updated from <a href="https://blog.zosc.com/">zero-build-blog</a> by a GitHub Action.</sub>
