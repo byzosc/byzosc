@@ -69,7 +69,7 @@ async function main() {
     ? posts
         .slice(0, MAX)
         .map((p) => {
-          const url = `${SITE}/#/post/${encodeURIComponent(p.dir)}`;
+          const url = `${SITE}/posts/${encodeURIComponent(p.dir)}/`;  // 2026-11-18 起博客每篇有真实网址（预渲染静态页）
           const sum = p.summary ? ` — ${p.summary}` : '';
           return `- **[${p.title}](${url})**${sum} <sub>· ${p.date}</sub>`;
         })
